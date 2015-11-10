@@ -29,7 +29,7 @@
                 android:layout_height="fill_parent">
 
                 <LinearLayout
-                    android:id="@+id/tabCreator"
+                    android:id="@+id/Contact_Creator"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:orientation="vertical">
@@ -39,14 +39,14 @@
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:text="Contact Creator"
-                        android:id="@+id/lblCreatorTitle"
+                        android:id="@+id/tc_contact"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"/>
 
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:id="@+id/imgViewContactImage"
+                        android:id="@+id/iv_imagec"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="10dp"
                         android:src="@drawable/no_user_logo" />
@@ -56,7 +56,7 @@
                         android:layout_height="wrap_content"
                         android:inputType="textPersonName"
                         android:ems="10"
-                        android:id="@+id/txtName"
+                        android:id="@+id/et_name"
                         android:layout_marginTop="20dp"
                         android:hint="Contact Name"/>
 
@@ -65,7 +65,7 @@
                         android:layout_height="wrap_content"
                         android:inputType="phone"
                         android:ems="10"
-                        android:id="@+id/txtPhone"
+                        android:id="@+id/et_phone"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
                         android:hint="Phone Number"/>
@@ -74,7 +74,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:id="@+id/txtEmail"
+                        android:id="@+id/et_email"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
                         android:hint="Email"
@@ -91,7 +91,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/tabContactList"
+                    android:id="@+id/Contact_List"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:orientation="vertical">
